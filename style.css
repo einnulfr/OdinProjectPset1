@@ -1,0 +1,118 @@
+body{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    padding-bottom: 30px;
+}
+div.header, div.oneQuarterPage, div.twoQuarterPage, div.threeQuarterPage, div.fourQuarterPage, div.footer{
+    display: flex;
+    justify-content: center;
+}
+div.header, div.oneQuarterPage, div.footer{
+    background-color: #1f2937;
+    color: white;
+}
+div.header .headerLogo{
+    width: 300px;
+    height: 75px;
+    flex:0 0 auto;
+    margin-right: auto;
+}
+div.header .topLinks{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    margin-left: auto;
+}
+div.oneQuarterPage h2{
+    font-size: 48px;
+    font-weight: bolder;
+}
+div.oneQuarterPage p, div.header .topLinks{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button{
+    background-color: #3882f6;
+    color: white;
+    width: 150px;
+    border-radius: 25px;
+    padding: 10px 5px 10px 5px;
+}
+div.oneQuarterPage .leftSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:475px;
+}
+div.oneQuarterPage .signupButton{
+    border: none;
+}
+div.oneQuarterPage img{
+    width: 475px;
+    margin-left:auto;
+}
+div.twoQuarterPage h3{
+    font-size: 24px;
+}
+div.twoQuarterPage .container{
+    flex-direction: column;
+    align-items: center;
+}
+div.twoQuarterPage .imageContainer{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.twoQuarterPage .imageContainer span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.twoQuarterPage .imageContainer span img{
+    width: 100px;
+    height: 100px;
+}
+div.twoQuarterPage .imageContainer span p{
+    width: 200px;
+    text-align: center;
+}
+div.threeQuarterPage{
+    justify-content: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+div.threeQuarterPage .container{
+    flex-direction: column;
+    width: 750px;
+}
+div.fourQuarterPage{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+div.fourQuarterPage .container{
+    background-color: #3882f6;
+    color: white;
+    flex-direction: row;
+    width: 720px;
+    justify-content: space-between;
+    border-radius: 25px;
+    padding: 15px 50px 15px 50px;
+}
+div.fourQuarterPage .signupButton{
+    align-self: center;
+    border-style:solid;
+    border-color: white;
+}
